@@ -1,15 +1,19 @@
 .asgar {
     width: 100px;
     height: 100px;
+    padding: 20px;
     margin: 10px;
     border-radius: 10px;
     background: blue;
+    color: white;
 }
 
 .akbar {
     width: 100px;
     height: 100px;
+    padding: 20px;
     margin: 10px;
     border-radius: 50%;
     background: red;
+    color: white;
 }
