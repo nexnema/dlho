@@ -2,9 +2,13 @@
     opacity: 0.6;
 }
 
-.asgar {
+div.asgar {
     border-radius: 10px;
 }
+article.asgar {
+    border-radius: 30px;
+}
+
 
 .akbar {
     border-radius: 50%;
