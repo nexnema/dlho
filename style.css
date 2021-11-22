@@ -1,25 +1,25 @@
 #sholatBaz {
-    opacity: 0.6;
+	opacity: 0.6;
 }
 
 div.asgar {
-    border-radius: 10px;
+	border-radius: 10px;
 }
 article.asgar {
-    border-radius: 30px;
+	border-radius: 30px;
 }
 
 
 .akbar {
-    border-radius: 50%;
+	border-radius: 50%;
 }
 
 .kahe {
-    width: 100px;
-    height: 100px;
-    padding: 20px;
-    margin: 10px;
-    box-shadow: 0 0 10px black;
-    text-align: center;
-    font-size: 26px;
+	width: 100px;
+	height: 100px;
+	padding: 20px;
+	margin: 10px;
+	box-shadow: 0 0 10px black;
+	text-align: center;
+	font-size: 26px;
 }
