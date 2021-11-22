@@ -7,6 +7,8 @@
     border-radius: 10px;
     background: blue;
     color: white;
+    text-align: center;
+    font-size: 18px;
 }
 
 .akbar {
@@ -18,4 +20,6 @@
     border-radius: 50%;
     background: red;
     color: white;
+    text-align: center;
+    font-size: 18px;
 }
