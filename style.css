@@ -3,15 +3,11 @@
 }
 
 .asgar {
-    border: 5px solid black;
     border-radius: 10px;
-    background-color: blue;
 }
 
 .akbar {
-    border: 5px solid green;
     border-radius: 50%;
-    background-color: red;
 }
 
 .kahe {
