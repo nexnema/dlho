@@ -1,7 +1,7 @@
 <?php
 function factoryel($x) {
-    $i = 0;
-    $z = 0;
+    $i = 1;
+    $z = 1;
     while ($i <= $x) {
         $z = $z * ++$i;
     }
