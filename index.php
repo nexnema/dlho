@@ -5,7 +5,7 @@ function factoryel($x) {
     while ($i <= $x) {
         $z = $z * ++$i;
     }
-    return $z;
+    // return $z;
 }
 ?>
 
