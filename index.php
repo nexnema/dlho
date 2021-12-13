@@ -14,4 +14,4 @@ $a = print "asyfgsi gag f";
 <hr>
 
 <?php
-var_dump($x);
+var_dump($y);
