@@ -1,20 +1,13 @@
 <?php
-$x = 40;
+$x = "khefrytwegrfiuge urguywguyqet";
 
 
-switch ($x) {
-    case 50:
-      echo "Hi";
-      break;
-    case 40:
-      echo "Bye";
-      break;
-    case 30:
-      echo "Hi Bye";
-      break;
-    default:
-      echo "Bye Bye";
-  }
+while ($x < 100) {
+    echo $x;
+    echo "<hr>";
+
+    $x = $x + 1;
+}
 ?>
 
 
