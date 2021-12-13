@@ -5,17 +5,13 @@ $y = " Hello World!";
 $z = $x.$y;
 ?>
 
-
-
-
 <h1><?=$z?></h1>
 
-
 <?php
-$a = echo "asyfgsi gag f";
+$a = print "asyfgsi gag f";
 ?>
 
 <hr>
 
 <?php
-var_dump($a);
+var_dump($x);
