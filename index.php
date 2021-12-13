@@ -9,3 +9,10 @@ $z = $x.$y;
 
 
 <h1><?=$z?></h1>
+
+
+<?php
+
+$a = print "asyfgsi gag f";
+
+echo "<hr>".$a;
