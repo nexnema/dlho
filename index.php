@@ -12,9 +12,10 @@ $z = $x.$y;
 
 
 <?php
-
-$a = print "asyfgsi gag f";
+$a = echo "asyfgsi gag f";
 ?>
+
 <hr>
+
 <?php
 var_dump($a);
