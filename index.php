@@ -1,4 +1,4 @@
 <?php
 $x = 24.4;
 
-echo "helo word <br/>".$x;
+echo "<h1>".$x."</h1>";
