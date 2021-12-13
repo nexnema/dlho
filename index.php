@@ -13,6 +13,6 @@ $z = $x.$y;
 
 <?php
 
-$a:string = print "asyfgsi gag f";
+(string) $a = print "asyfgsi gag f";
 
 echo "<hr>".$a;
