@@ -1,10 +1,10 @@
 <?php
 $y = " Hello World!";
 
-$z = strlen($y);
+$z = str_word_count($y);
 ?>
 
 <h1><?=$y?></h1>
 
-<h2>String Length = <?=$z?></h2>
+<h2><?=$z?></h2>
 
