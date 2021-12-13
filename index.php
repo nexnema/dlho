@@ -1,7 +1,7 @@
 <?php
-define("X", "Hello World!");
+$x = 50;
 
-echo X;
+if ($x == 50) echo "Hello World!!!!!";
 ?>
 
 
