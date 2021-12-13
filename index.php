@@ -17,7 +17,10 @@ echo factoryel(4);
 ?>
 <hr>
 <?php
-factoryel(10);
+$g = factoryel(10);
+
+echo $g;
+
 ?>
 
 
