@@ -1,7 +1,7 @@
 <?php
 $y = " Hello World!";
 
-$z = strrev($y);
+$z = pi();
 ?>
 
 <h1><?=$y?></h1>
