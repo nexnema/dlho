@@ -1,7 +1,7 @@
 <?php
-define("GREETING", "Welcome to W3Schools.com!");
+define("X", "Hello World!");
 
-echo GREETING;
+echo X;
 ?>
 
 
