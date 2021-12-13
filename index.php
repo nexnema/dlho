@@ -4,5 +4,7 @@ $y = " Hello World!";
 $z = strlen($y);
 ?>
 
-<h1><?=$z?></h1>
+<h1><?=$y?></h1>
+
+<h2>String Length = <?=$z?></h2>
 
