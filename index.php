@@ -1,12 +1,11 @@
 <?php
-function namyeshbede($x) {
+function factoryel($x) {
     $i = 0;
+    $z = 0;
     while ($i <= $x) {
-        echo $i;
-        echo "<hr>";
-    
-        $i++;
+        $z = $z * $i;
     }
+    echo $z;
 }
 ?>
 
@@ -14,8 +13,11 @@ function namyeshbede($x) {
 
 
 <?php
-namyeshbede(44);
-namyeshbede(454);
+factoryel(4);
+?>
+<hr>
+<?php
+factoryel(10);
 ?>
 
 
