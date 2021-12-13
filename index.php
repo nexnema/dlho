@@ -1,10 +1,7 @@
 <?php
-$y = " Hello World!";
+define("GREETING", "Welcome to W3Schools.com!");
 
-$z = pi();
+echo GREETING;
 ?>
 
-<h1><?=$y?></h1>
-
-<h2><?=$z?></h2>
 
