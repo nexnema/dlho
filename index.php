@@ -1,10 +1,11 @@
 <?php
 function namyeshbede($x) {
-    while ($x <= 100) {
-        echo $x;
+    $i = 0;
+    while ($i <= $x) {
+        echo $i;
         echo "<hr>";
     
-        $x = $x + 1;
+        $i++;
     }
 }
 ?>
