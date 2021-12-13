@@ -1,4 +1,4 @@
 <?php
-$x = "mahdi";
+$x = 24.4;
 
-echo "helo word".$x;
+echo "helo word ".$x;
