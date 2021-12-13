@@ -1,7 +1,7 @@
 <?php
 $y = " Hello World!";
 
-$z = str_word_count($y);
+$z = strrev($y);
 ?>
 
 <h1><?=$y?></h1>
