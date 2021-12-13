@@ -5,7 +5,7 @@ function factoryel($x) {
     while ($i <= $x) {
         $z = $z * ++$i;
     }
-    echo $z;
+    return $z;
 }
 ?>
 
@@ -13,11 +13,11 @@ function factoryel($x) {
 
 
 <?php
-factoryel(4);
+echo factoryel(4);
 ?>
 <hr>
 <?php
-factoryel(10);
+echo factoryel(10);
 ?>
 
 
