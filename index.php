@@ -1,1 +1,3 @@
-hhh
+<?php
+
+echo "helo word";
