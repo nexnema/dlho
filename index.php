@@ -13,6 +13,8 @@ $z = $x.$y;
 
 <?php
 
-$a = (string) print "asyfgsi gag f";
-
-echo "<hr>".$a;
+$a = print "asyfgsi gag f";
+?>
+<hr>
+<?php
+var_dump($a);
