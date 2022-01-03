@@ -1,5 +1,5 @@
 <?php
-echo $_GET['num1+num2'];
+echo $_GET['num1'] + $_GET['num2'];
 ?>
 
 
