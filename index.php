@@ -1,5 +1,5 @@
 <?php
-echo $_GET['name'];
+echo $_GET['sub'];
 ?>
 
 
@@ -8,9 +8,9 @@ echo $_GET['name'];
 	<body>
 		<hr>
 		<form action="index.php" method="GET">
-			<label>Name: </label><input type="text" name="name"><br>
-			<label>Age: </label><input type="number" name="age"><br>
-			<input type="submit">
+			<label>Num1: </label><input type="number" name="num1"><br>
+			<label>num2: </label><input type="number" name="num2"><br>
+			<input type="submit" name="sub">
 		</form>
 	</body>
 </html>
