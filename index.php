@@ -1,5 +1,5 @@
 <?php
-echo $_GET['sub'];
+echo $_GET['num1+num2'];
 ?>
 
 
@@ -10,7 +10,7 @@ echo $_GET['sub'];
 		<form action="index.php" method="GET">
 			<label>Num1: </label><input type="number" name="num1"><br>
 			<label>num2: </label><input type="number" name="num2"><br>
-			<input type="submit" name="sub">
+			<input type="submit">
 		</form>
 	</body>
 </html>
