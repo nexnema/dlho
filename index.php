@@ -9,7 +9,6 @@ if ($_post['mode'] == "222") {
 if ($_post['mode'] == "333") {
 	$result = $_post['num1'] * $_post['num2'];
 }
-}
 if ($_post['mode'] == "444") {
 	$result = $_post['num1'] / $_post['num2'];
 }
