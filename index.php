@@ -1,4 +1,14 @@
 <?php 
+ 
+if ($_POST['username'] == admin) {
+	if ($_POST['password'] == 1234) {
+		$result = "welcome";
+	} else {
+		$result = "wrong password!!!";
+	}
+} else {
+	$result = "Wrong Username!!!";
+}
 
 
 
