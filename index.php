@@ -1,5 +1,5 @@
 <?php
-echo $_GET['num1'] + $_GET['num2'];
+echo $_POST['num1'] + $_POST['num2'];
 ?>
 
 
@@ -7,7 +7,7 @@ echo $_GET['num1'] + $_GET['num2'];
 <html>
 	<body>
 		<hr>
-		<form action="index.php" method="GET">
+		<form action="index.php" method="POST">
 			<label>Num1: </label><input type="number" name="num1"><br>
 			<label>num2: </label><input type="number" name="num2"><br>
 			<input type="submit">
