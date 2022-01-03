@@ -14,10 +14,10 @@ echo $_POST['mode'];
 			<label>num2: </label><input type="number" name="num2"><br>
 			<hr>
 			<input type="radio" id="input1" name="mode" value="111">
-			<label for="input1">SUM</label>
+			<label for="input2">SUM</label>
 			<br>
 			<input type="radio" id="input2" name="mode" value="222">
-			<label for="input2">-</label>
+			<label for="">-</label>
 			<br>
 			<input type="radio" id="input4" name="mode" value="333">
 			<label for="input4">*</label>
