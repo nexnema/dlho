@@ -33,5 +33,6 @@ if ($_POST['username'] == admin) {
 		<br>
 		<input type="submit" value="submit">
 	</form>
+	<h1><?= $result?></h1>
 </body>
 </html>
