@@ -13,16 +13,16 @@ echo $_POST['mode'];
 			<label>Num1: </label><input type="number" name="num1"><br>
 			<label>num2: </label><input type="number" name="num2"><br>
 			<hr>
-			<input type="radio" id="input1" name="mode" value="+">
+			<input type="radio" id="input1" name="mode" value="111">
 			<label for="input1">+</label>
 			<br>
-			<input type="radio" id="input2" name="mode" value="-">
+			<input type="radio" id="input2" name="mode" value="222">
 			<label for="input2">-</label>
 			<br>
-			<input type="radio" id="input4" name="mode" value="*">
+			<input type="radio" id="input4" name="mode" value="333">
 			<label for="input4">*</label>
 			<br>
-			<input type="radio" id="input3" name="mode" value="/">
+			<input type="radio" id="input3" name="mode" value="444">
 			<label for="input3">/</label>
 			<hr>
 			<input type="submit">
