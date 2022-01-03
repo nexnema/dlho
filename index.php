@@ -1,45 +1,25 @@
-<?php
+<?php 
 
-if ($_POST['mode'] == 111) {
-	$result = $_POST['num1'] + $_POST['num2'];
-}
-if ($_POST['mode'] == 222) {
-	$result = $_POST['num1'] - $_POST['num2'];
-}
-if ($_POST['mode'] == 333) {
-	$result = $_POST['num1'] * $_POST['num2'];
-}
-if ($_POST['mode'] == 444) {
-	$result = $_POST['num1'] / $_POST['num2'];
-}
+
+
 ?>
 
 
-
-<html>
-	<body>
-		<hr>
-		<form action="" method="POST">
-			<label>Num1: </label><input type="number" name="num1"><br>
-			<br>
-			<label>num2: </label><input type="number" name="num2"><br>
-			<hr>
-			<input type="radio" id="input1" name="mode" value="111">
-			<label for="input1">SUM</label>
-			<br>
-			<input type="radio" id="input2" name="mode" value="222">
-			<label for="input2">-</label>
-			<br>
-			<input type="radio" id="input4" name="mode" value="333">
-			<label for="input4">*</label>
-			<br>
-			<input type="radio" id="input3" name="mode" value="444">
-			<label for="input3">/</label>
-			<hr>
-			<input type="submit">
-		</form>
-		<hr>
-		<h1><?= $result ?></h1>
-	</body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<form action="index.php" method="POST">
+		<label>Username: </label>
+		<input type="text" name="username"><br>
+		<label>password: </label>
+		<input type="password" name="username"><br>
+		<input type="submit" value="submit">
+	</form>
+</body>
 </html>
-
