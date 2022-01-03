@@ -1,7 +1,11 @@
 <?php
-$sum = $_POST['num1'] + $_POST['num2'];
 
-echo $_POST['mode'];
+if ($_POST['mode'] == "111") {
+	$result = $_POST['num1'] + $_POST['num2'];
+}
+if ($_post['mode'] == "222") {
+	$result = $-_post['num2'] - $_post['nu2']
+}
 ?>
 
 
@@ -28,7 +32,7 @@ echo $_POST['mode'];
 			<input type="submit">
 		</form>
 		<hr>
-		<h1><?= $sum ?></h1>
+		<h1><?= $result ?></h1>
 	</body>
 </html>
 
