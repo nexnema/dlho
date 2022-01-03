@@ -12,11 +12,14 @@ $sum = $_POST['num1'] + $_POST['num2'];
 			<label>num2: </label><input type="number" name="num2"><br>
 			<hr>
 			<input type="radio" id="input1" name="mode" value="+">
-			<label for="input1">+</label><br>
+			<label for="input1">+</label>
+			<br>
 			<input type="radio" id="input2" name="mode" value="-">
-			<label for="input2">-</label><br>
+			<label for="input2">-</label>
+			<br>
 			<input type="radio" id="input4" name="mode" value="*">
 			<label for="input4">*</label>
+			<br>
 			<input type="radio" id="input3" name="mode" value="/">
 			<label for="input3">/</label>
 			<hr>
