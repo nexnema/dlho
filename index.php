@@ -26,9 +26,11 @@ if ($_POST['username'] == admin) {
 <body>
 	<form action="index.php" method="POST">
 		<label>Username: </label>
-		<input type="text" name="username"><br>
+		<input type="text" name="username">
+		<br>
 		<label>password: </label>
-		<input type="password" name="username"><br>
+		<input type="password" name="password">
+		<br>
 		<input type="submit" value="submit">
 	</form>
 </body>
