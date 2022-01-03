@@ -1,15 +1,15 @@
 <?php
 
-if ($_POST['mode'] == "111") {
+if ($_POST['mode'] == 111) {
 	$result = $_POST['num1'] + $_POST['num2'];
 }
-if ($_post['mode'] == "222") {
+if ($_POST['mode'] == 222) {
 	$result = $_post['num1'] - $_post['num2'];
 }
-if ($_post['mode'] == "333") {
+if ($_POST['mode'] == 333) {
 	$result = $_post['num1'] * $_post['num2'];
 }
-if ($_post['mode'] == "444") {
+if ($_POST['mode'] == 444) {
 	$result = $_post['num1'] / $_post['num2'];
 }
 ?>
