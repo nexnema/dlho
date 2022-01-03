@@ -1,5 +1,5 @@
 <?php
-echo $_POST['num1'] + $_POST['num2'];
+$sum = $_POST['num1'] + $_POST['num2'];
 ?>
 
 
@@ -12,6 +12,8 @@ echo $_POST['num1'] + $_POST['num2'];
 			<label>num2: </label><input type="number" name="num2"><br>
 			<input type="submit">
 		</form>
+		<hr>
+		<h1><?= $sum ?></h1>
 	</body>
 </html>
 
