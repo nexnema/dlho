@@ -21,6 +21,7 @@ if ($_POST['mode'] == 444) {
 		<hr>
 		<form action="" method="POST">
 			<label>Num1: </label><input type="number" name="num1"><br>
+			<br>
 			<label>num2: </label><input type="number" name="num2"><br>
 			<hr>
 			<input type="radio" id="input1" name="mode" value="111">
