@@ -1,8 +1,19 @@
-html {
-    direction: rtl;
+@font-face {
+    font-family: 'Yekan';
+    src: url('https://cdn.cleveraj.net/fonts/WebYekan.eot');
+    src: url('https://cdn.cleveraj.net/fonts/WebYekan.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.cleveraj.net/fonts/WebYekan.woff') format('woff'),
+         url('https://cdn.cleveraj.net/fonts/WebYekan.ttf') format('truetype'),
+         url('https://cdn.cleveraj.net/fonts/WebYekan.svg#WebYekan') format('svg');
 }
 
-@media (min-width: 992px) {}
+html {
+    direction: rtl;
+    font-family: "Yekan", Tahoma;
+}
+
+@media (min-width: 992px) {
 .text-lg-start {
     text-align: initial!important;
 }
+}  
