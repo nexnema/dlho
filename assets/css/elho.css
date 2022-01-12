@@ -7,9 +7,12 @@
          url('https://cdn.cleveraj.net/fonts/WebYekan.svg#WebYekan') format('svg');
 }
 
+* {
+    font-family: "Yekan", Tahoma;
+}
+
 html {
     direction: rtl;
-    font-family: "Yekan"!important;
 }
 
 @media (min-width: 992px) {
