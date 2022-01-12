@@ -9,6 +9,9 @@
 
 html {
     direction: rtl;
+}
+
+body {
     font-family: "Yekan", Tahoma;
 }
 
