@@ -9,7 +9,7 @@
 
 html {
     direction: rtl;
-    font-family: "Yekan", Tahoma !important;
+    font-family: "Yekan", Tahoma!important;
 }
 
 @media (min-width: 992px) {
