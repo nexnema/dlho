@@ -8,17 +8,19 @@
 }
 
 
-@media (min-width: 992px) {
-  .text-lg-start {
-      text-align: initial!important;
-  }
+#topbar .contact-info i span {
+  padding-right: 5px;
 }
-
 .me-auto {
   margin-right: 0!important;
 }
 .me-auto {
   margin-left: auto!important;
+}
+@media (min-width: 992px) {
+  .text-lg-start {
+      text-align: initial!important;
+  }
 }
 
 /*--------------------------------------------------------------
