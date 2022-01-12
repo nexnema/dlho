@@ -1,3 +1,8 @@
 html {
     direction: rtl;
 }
+
+@media (min-width: 992px) {}
+.text-lg-start {
+    text-align: initial!important;
+}
