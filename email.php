@@ -1,6 +1,6 @@
 <?php
 
-echo $_GET['name'];
+echo $_POST['name'];
 
 //exit('پیغام شما به مدیریت ارسال گردید.');
 
