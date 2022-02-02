@@ -1,5 +1,9 @@
 <?php
 
+$ftgyhuh = 'ddddddddddddddd';
+
+echo $ftgyhuh;
+
 echo $_POST[1];
 
 
