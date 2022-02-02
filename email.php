@@ -1,5 +1,5 @@
 <?php
 
-exit('XXXXXXXXXXXXXX  ');
+exit('پیغام شما به مدیریت ارسال گردید.');
 
 ?>
