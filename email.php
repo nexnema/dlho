@@ -1,12 +1,7 @@
 <?php
 
-$ftgyhuh = 'ddddddddddddddd';
+echo $_GET['name'];
 
-echo $ftgyhuh;
-
-echo $_GET['id'];
-
-
-exit('پیغام شما به مدیریت ارسال گردید.');
+//exit('پیغام شما به مدیریت ارسال گردید.');
 
 ?>
