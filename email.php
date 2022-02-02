@@ -4,7 +4,7 @@ $ftgyhuh = 'ddddddddddddddd';
 
 echo $ftgyhuh;
 
-echo $_POST[1];
+echo $_GET['id'];
 
 
 exit('پیغام شما به مدیریت ارسال گردید.');
