@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-if ($_SESSION['userID']) exit('Logged in user cant sign in. logged in id='.$_SESSION['userID']);
+if ($_SESSION['userID']) exit('Logged in user cant sign in. logged in id='.$_SESSION['userID'].'  | <a href="../home/single.php">Go to Home page.</a>');
 
 // Connect database
 $db = new mysqli(
