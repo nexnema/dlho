@@ -1,5 +1,8 @@
 <?php
 
+if ($_SESSION['userID']) exit('Logged in user cant sign up.');
+
+
 // Connect database
 $db = new mysqli(
 		localhost,
