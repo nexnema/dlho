@@ -10,7 +10,7 @@ $db = new mysqli(
 if ($db->connect_error) exit($db->connect_error);
 $db->set_charset("utf8");
 
-if ($_POST['password'] === $_POST['passwordVerify']) {
+if ($_POST['password'] == $_POST['passwordVerify']) {
   mysqli_query($db, "INSERT INTO users (email, password) VALUES ('".$_POST['userEmail']."', '".$_POST['password']."')");
 } else {
   exit('Password not match');
