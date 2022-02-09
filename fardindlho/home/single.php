@@ -71,6 +71,12 @@
         <div class="collapse navbar-collapse" id="navbar-nav-header">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
+                    <a class="nav-link" href="/fardindlho/account/signIn.php">Log In</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/fardindlho/account/signUp.php">Sign Up</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="/">Home</a>
                 </li>
                 <li class="nav-item">
