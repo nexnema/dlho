@@ -2,6 +2,10 @@
 
 echo $_POST['userEmail'];
 
+echo $_POST['password'];
+
+echo $_POST['passwordVerify'];
+
 ?>
 
 
