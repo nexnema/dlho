@@ -76,7 +76,7 @@ session_start();
             <ul class="navbar-nav ml-auto">
 <?php if ($_SESSION['userID']) { ?>
                 <li class="nav-item">
-                    <a class="nav-link">User ID=<?= $_SESSION['userID']?></a>
+                    <a class="nav-link" href="">User ID=<?= $_SESSION['userID']?></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/fardindlho/account/signOut.php">Sign Out</a>
