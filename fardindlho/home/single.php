@@ -1,5 +1,23 @@
 <?php
 session_start();
+
+// Connect database
+$db = new mysqli(
+    localhost,
+    'u788281512_fardindlho',
+    'Wt2@m[z9WB',
+    'u788281512_fardindlho'
+);
+if ($db->connect_error) exit($db->connect_error);
+$db->set_charset("utf8");
+
+if ($_SESSION['userID']) {
+    $result = mysqli_query($db, "SELECT * FROM users WHERE ID='".$_SESSION['userID']."' LIMIT 1");
+	if ($result = mysqli_fetch_array($result)) {
+        $userEmail = $result['email'];
+    }
+}
+
 ?>
 
 <!DOCTYPE html>
@@ -76,7 +94,7 @@ session_start();
             <ul class="navbar-nav ml-auto">
 <?php if ($_SESSION['userID']) { ?>
                 <li class="nav-item">
-                    <a class="nav-link" href="">User ID=<?= $_SESSION['userID']?></a>
+                    <a class="nav-link" href="">User Email=<?= $userEmail ?></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/fardindlho/account/signOut.php">Sign Out</a>
