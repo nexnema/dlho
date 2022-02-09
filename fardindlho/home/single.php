@@ -94,7 +94,7 @@ if ($_SESSION['userID']) {
             <ul class="navbar-nav ml-auto">
 <?php if ($_SESSION['userID']) { ?>
                 <li class="nav-item">
-                    <a class="nav-link" href="">User Email=<?= $userEmail ?></a>
+                    <a class="nav-link" href="">User ID=<?= $_SESSION['userID'] ?>, User Email=<?= $userEmail ?></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/fardindlho/account/signOut.php">Sign Out</a>
