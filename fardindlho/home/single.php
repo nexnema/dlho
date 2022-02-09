@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -70,12 +74,14 @@
         </button>
         <div class="collapse navbar-collapse" id="navbar-nav-header">
             <ul class="navbar-nav ml-auto">
+<?php if ($_SESSION['userID']) {} else { ?>
                 <li class="nav-item">
                     <a class="nav-link" href="/fardindlho/account/signIn.php">Sign In</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/fardindlho/account/signUp.php">Sign Up</a>
                 </li>
+<?php } ?>
                 <li class="nav-item">
                     <a class="nav-link" href="/">Home</a>
                 </li>

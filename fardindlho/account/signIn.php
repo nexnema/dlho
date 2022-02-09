@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-if ($_SESSION['userID']) exit('Logged in user cant sign up. logged in id='.$_SESSION['userID']);
+if ($_SESSION['userID']) exit('Logged in user cant sign in. logged in id='.$_SESSION['userID']);
 
 // Connect database
 $db = new mysqli(
