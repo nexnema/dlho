@@ -49,10 +49,10 @@
             <input type="password" name="password" placeholder="Password again" />
           </div>
           <div class="button">
-            <button>Sign in</button>
+            <button>Sign Up</button>
           </div>
           <div class="recovery">
-            <p><a href="./Sign in.html">Sign up</a></p>
+            <p><a href="./Sign in.html">Sign In</a></p>
           </div>
         </form>
       </div>
