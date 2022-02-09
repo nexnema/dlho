@@ -1,4 +1,7 @@
 <?php
+session_start();
+
+
 
 echo $_SESSION['userID']; 
 if ($_SESSION['userID']) exit('Logged in user cant sign up.');
