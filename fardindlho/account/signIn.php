@@ -12,7 +12,7 @@ $db->set_charset("utf8");
 
 if ($_POST['userEmail']) {
 			$result = mysqli_query($db, "SELECT * FROM users WHERE email='".$_POST['userEmail']."' AND password='".$_POST['password']."' LIMIT 1");
-			if (mysqli_fetch_array($result)) {
+			if ($result = mysqli_fetch_array($result)) {
         exit('Wellcome :))) '.$result['ID']);
       } else {
         exit('User not Found!!!');
