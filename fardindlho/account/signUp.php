@@ -1,7 +1,5 @@
 <?php
 
-$_SESSION['userID'] = 2345678;
-
 echo $_SESSION['userID']; 
 if ($_SESSION['userID']) exit('Logged in user cant sign up.');
 
