@@ -69,7 +69,7 @@ mysqli_query($db, "INSERT INTO users (email, password) VALUES ('".$_POST['userEm
             <button>Sign Up</button>
           </div>
           <div class="recovery">
-            <p><a href="./signIn.html">Sign In</a></p>
+            <p><a href="./signIn.php">Sign In</a></p>
           </div>
         </form>
       </div>

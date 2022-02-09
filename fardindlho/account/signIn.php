@@ -66,7 +66,7 @@ $db->set_charset("utf8");
             <button>Sign in</button>
           </div>
           <div class="recovery">
-            <p><a href="#">Forgot password? </a> or <a href="./signUp.html">Sign up</a></p>
+            <p><a href="#">Forgot password? </a> or <a href="./signUp.php">Sign up</a></p>
           </div>
         </form>
       </div>
