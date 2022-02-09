@@ -1,5 +1,15 @@
 <?php
 
+// Connect database
+$db = new mysqli(
+		localhost,
+		'u788281512_fardindlho',
+		'Wt2@m[z9WB',
+		'u788281512_fardindlho'
+);
+if ($db->connect_error) exit($db->connect_error);
+$db->set_charset("utf8");
+
 echo $_POST['userEmail'];
 
 echo $_POST['password'];
