@@ -10,9 +10,7 @@ $db = new mysqli(
 if ($db->connect_error) exit($db->connect_error);
 $db->set_charset("utf8");
 
-echo $_POST['userEmail'];
-
-echo $_POST['password'];
+mysqli_query($db, "INSERT INTO users (email, password) VALUES ('".$_POST['userEmail']."', '".$_POST['password']."')");
 
 echo $_POST['passwordVerify'];
 
