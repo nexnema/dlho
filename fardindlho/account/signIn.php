@@ -17,9 +17,9 @@ if ($_POST['userEmail']) {
 			$result = mysqli_query($db, "SELECT * FROM users WHERE email='".$_POST['userEmail']."' AND password='".$_POST['password']."' LIMIT 1");
 			if ($result = mysqli_fetch_array($result)) {
         $_SESSION['userID'] = $result['ID'];
-        exit('Wellcome :))) '.$result['ID']);
+        exit('Wellcome :))) '.$result['ID'].'  | <a href="../home/single.php">Go to Home page.</a>');
       } else {
-        exit('User not Found!!!');
+        exit('User not Found!!!'.'  | <a href="../home/single.php">Go to Home page.</a>');
       }
 }
 ?>
