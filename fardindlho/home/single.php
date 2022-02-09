@@ -74,7 +74,14 @@ session_start();
         </button>
         <div class="collapse navbar-collapse" id="navbar-nav-header">
             <ul class="navbar-nav ml-auto">
-<?php if ($_SESSION['userID']) {} else { ?>
+<?php if ($_SESSION['userID']) { ?>
+                <li class="nav-item">
+                    <a class="nav-link">User ID=<?= $_SESSION['userID']?></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/fardindlho/account/signOut.php">Sign Out</a>
+                </li>
+<?php } else { ?>
                 <li class="nav-item">
                     <a class="nav-link" href="/fardindlho/account/signIn.php">Sign In</a>
                 </li>
