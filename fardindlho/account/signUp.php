@@ -1,10 +1,7 @@
 <?php
 session_start();
 
-
-
-echo $_SESSION['userID']; 
-if ($_SESSION['userID']) exit('Logged in user cant sign up.');
+if ($_SESSION['userID']) exit('Logged in user cant sign up. logged in id='.$_SESSION['userID']);
 
 
 // Connect database
